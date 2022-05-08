@@ -21,7 +21,7 @@ class reverseLevelOrderTraversal
             if(curr.right != null)
                 q.offer(curr.right);
                 
-            if(curr.left!=null)
+            if(curr.left != null)
                 q.offer(curr.left);
            }
         
