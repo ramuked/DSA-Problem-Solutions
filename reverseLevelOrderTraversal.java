@@ -1,4 +1,4 @@
-//solution to the problem https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1
+//solution  to the problem https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1
 
 class reverseLevelOrderTraversal
 {
@@ -7,7 +7,7 @@ class reverseLevelOrderTraversal
        
         ArrayList<Integer> al = new ArrayList<>();
         Stack<Integer> st = new Stack<>();
-        if(node==null)return al;
+        if(node == null)return al;
         
         Queue<Node> q = new ArrayDeque<>();
         q.offer(node);
@@ -18,7 +18,7 @@ class reverseLevelOrderTraversal
             
             st.push(curr.data);
             
-            if(curr.right!=null)
+            if(curr.right != null)
                 q.offer(curr.right);
                 
             if(curr.left!=null)
