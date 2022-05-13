@@ -1,7 +1,7 @@
 class DiagonalTraversal
 {
     public ArrayList<Integer> diagonal(Node root){
-           //add your code here.
+          
         Queue<Node> q = new ArrayDeque<>();
         ArrayList<Integer> ans = new ArrayList<Integer>();
         
