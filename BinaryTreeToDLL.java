@@ -1,6 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1
 class BinaryTreeToDLL
 {
+	
     Node prev;
     Node head;
     Node bToDLL(Node root)
@@ -14,6 +15,7 @@ class BinaryTreeToDLL
     }
         
     void solve(Node root){
+		
         if(root == null)return;
         
         solve(root.left);
