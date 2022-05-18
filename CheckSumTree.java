@@ -1,4 +1,5 @@
-lass CheckSumTree
+//solution to the problem https://practice.geeksforgeeks.org/problems/sum-tree/1
+class CheckSumTree
 {
     class Sum{
         int sum;
