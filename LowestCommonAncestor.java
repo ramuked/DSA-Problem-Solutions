@@ -1,9 +1,10 @@
+//solution to the problem https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
 class LowestCommonAncestor
 {
-    //Function to return the lowest common ancestor in a Binary Tree.
+  
 	Node lca(Node root, int n1,int n2)
 	{
-		// Your code here
+		
 		if(root == null)return root;
 		
 		if(root.data == n1 || root.data == n2){
