@@ -19,7 +19,7 @@ class DutchNationalFlag
                 m++;
                 
             }
-            
+            z
             else if(a[m] == 1){
                 
                 m++;
