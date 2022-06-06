@@ -18,7 +18,7 @@ class DutchNationalFlag
                 l++;
                 m++;
                 
-            }
+            
             z
             else if(a[m] == 1){
                 
